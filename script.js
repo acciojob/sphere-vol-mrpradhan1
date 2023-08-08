@@ -6,7 +6,7 @@ function volume_sphere() {
     const volume = (4 / 3) * Math.PI * Math.pow(radius, 3);
     
     // Display the volume
-    document.getElementById('volume').value = volume;
+    document.getElementById('volume').value = volume.toFixed(4);
 
     // Prevent the form from submitting and refreshing the page
     return false;
